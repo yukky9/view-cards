@@ -127,7 +127,7 @@ const GeneralPage = () => {
                         <FileSelectionArea/>
                     </div>
                 </div>
-                <div className='grid grid-cols-2 items-center -ml-72 gap-28'>
+                <div className='grid grid-cols-2 items-center -ml-96 gap-28'>
                     <div>
                         <FileTabs/>
                     </div>
