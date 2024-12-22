@@ -5,6 +5,7 @@ import StartButton from "../atoms/Buttons/StartButton";
 import AddFilesButton from "../atoms/Buttons/AddFilesButton";
 import FileSelectionArea from "../organisms/FileSelectionArea/FileSelectionArea";
 import SelectionArea from "../organisms/SelectionArea/SelectionArea";
+import ConfigurationArea from "../organisms/ConfigurationArea/ConfigurationArea";
 
 const GeneralPage = () => {
     return (
@@ -19,9 +20,9 @@ const GeneralPage = () => {
                         <FileSelectionArea/>
                     </div>
                 </div>
-                <div className='grid grid-cols-2 items-center'>
+                <div className='grid grid-cols-2 items-center -ml-72 gap-28'>
                     <div>
-
+                        <ConfigurationArea/>
                     </div>
                     <div>
                         <SelectionArea/>
