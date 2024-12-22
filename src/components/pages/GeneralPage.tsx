@@ -1,31 +1,31 @@
 import React from 'react';
 import Main from '../templates/Main';
 import FileTree from "../molecules/FileTree/FileTree";
-import SearchBar from "../molecules/SearchBar/SearchBar";
-import CheckboxList from "../molecules/CheckboxList/CheckboxList";
 import StartButton from "../atoms/Buttons/StartButton";
-import StopButton from "../atoms/Buttons/StopButton";
+import AddFilesButton from "../atoms/Buttons/AddFilesButton";
+import FileSelectionArea from "../organisms/FileSelectionArea/FileSelectionArea";
+import SelectionArea from "../organisms/SelectionArea/SelectionArea";
 
 const GeneralPage = () => {
     return (
-        <div>
+        <div className='h-full'>
             <Main/>
             <div className='grid grid-cols-2'>
-                <div className='w-72 h-screen bg-gray-50 border'>
-                    <div className=' border-b-2'>
+                <div className='w-72 bg-gray-50 border'>
+                    <div className=' border-b-2 pb-2.5'>
                         <FileTree/>
                     </div>
-                    <div className='border-t-2'>
-                        <SearchBar/>
-                        <CheckboxList/>
-                        <StopButton/>
+                    <div className='border-t-2 pt-2.5'>
+                        <FileSelectionArea/>
                     </div>
                 </div>
-                <div className='grid grid-cols-2'>
+                <div className='grid grid-cols-2 items-center'>
                     <div>
 
                     </div>
                     <div>
+                        <SelectionArea/>
+                        <AddFilesButton/>
                         <StartButton/>
                     </div>
                 </div>

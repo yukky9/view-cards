@@ -2,7 +2,7 @@ import React from 'react';
 
 const FileTree = () => {
     return (
-        <div className='ml-4 pt-3 h-96 overflow-auto'>
+        <div className='ml-4 pt-3 max-h-96 overflow-auto'>
             <div className="hs-accordion-treeview-root" role="tree" aria-orientation="vertical">
                 <div className="hs-accordion-group" role="group" data-hs-accordion-always-open="">
 
@@ -536,6 +536,93 @@ const FileTree = () => {
                         </div>
                     </div>
 
+                    <div className="hs-accordion-heading py-0.5 flex items-center gap-x-0.5 w-full">
+                        <button
+                            className="hs-accordion-toggle size-6 flex justify-center items-center hover:bg-gray-100 rounded-md focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
+                            aria-expanded="false" aria-controls="hs-basic-usage-example-tree-collapse-three">
+                            <svg className="size-4 text-gray-800" xmlns="http://www.w3.org/2000/svg" width="24"
+                                 height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                                 stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path className="hs-accordion-active:hidden block" d="M12 5v14"></path>
+                            </svg>
+                        </button>
+
+                        <div
+                            className="grow hs-accordion-selectable hs-accordion-selected:bg-gray-100 px-1.5 rounded-md cursor-pointer">
+                            <div className="flex items-center gap-x-3">
+                                <svg className="shrink-0 size-4 text-gray-500" xmlns="http://www.w3.org/2000/svg"
+                                     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"></path>
+                                </svg>
+                                <div className="grow">
+              <span className="text-sm text-gray-800">
+                templates
+              </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="hs-accordion-heading py-0.5 flex items-center gap-x-0.5 w-full">
+                        <button
+                            className="hs-accordion-toggle size-6 flex justify-center items-center hover:bg-gray-100 rounded-md focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
+                            aria-expanded="false" aria-controls="hs-basic-usage-example-tree-collapse-three">
+                            <svg className="size-4 text-gray-800" xmlns="http://www.w3.org/2000/svg" width="24"
+                                 height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                                 stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path className="hs-accordion-active:hidden block" d="M12 5v14"></path>
+                            </svg>
+                        </button>
+
+                        <div
+                            className="grow hs-accordion-selectable hs-accordion-selected:bg-gray-100 px-1.5 rounded-md cursor-pointer">
+                            <div className="flex items-center gap-x-3">
+                                <svg className="shrink-0 size-4 text-gray-500" xmlns="http://www.w3.org/2000/svg"
+                                     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"></path>
+                                </svg>
+                                <div className="grow">
+              <span className="text-sm text-gray-800">
+                templates
+              </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="hs-accordion-heading py-0.5 flex items-center gap-x-0.5 w-full">
+                        <button
+                            className="hs-accordion-toggle size-6 flex justify-center items-center hover:bg-gray-100 rounded-md focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
+                            aria-expanded="false" aria-controls="hs-basic-usage-example-tree-collapse-three">
+                            <svg className="size-4 text-gray-800" xmlns="http://www.w3.org/2000/svg" width="24"
+                                 height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                                 stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path className="hs-accordion-active:hidden block" d="M12 5v14"></path>
+                            </svg>
+                        </button>
+
+                        <div
+                            className="grow hs-accordion-selectable hs-accordion-selected:bg-gray-100 px-1.5 rounded-md cursor-pointer">
+                            <div className="flex items-center gap-x-3">
+                                <svg className="shrink-0 size-4 text-gray-500" xmlns="http://www.w3.org/2000/svg"
+                                     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"></path>
+                                </svg>
+                                <div className="grow">
+              <span className="text-sm text-gray-800">
+                templates
+              </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div className="hs-accordion-heading py-0.5 flex items-center gap-x-0.5 w-full">
                         <button
                             className="hs-accordion-toggle size-6 flex justify-center items-center hover:bg-gray-100 rounded-md focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"

@@ -1,8 +1,8 @@
 import React from 'react';
 
-const CheckboxList = () => {
+const SelectionCheckboxList = () => {
     return (
-        <div className='p-4 max-h-72 overflow-auto'>
+        <div className='w-80 p-2 pl-6 max-h-64 overflow-auto'>
             <div className="flex items-center mb-2 overflow-auto">
                 <input id="default-checkbox" type="checkbox" value=""
                        className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 "/>
@@ -104,4 +104,4 @@ const CheckboxList = () => {
     );
 };
 
-export default CheckboxList;
+export default SelectionCheckboxList;
