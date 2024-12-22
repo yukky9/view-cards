@@ -4,7 +4,7 @@ import KeyTypeInputs from "../../atoms/Inputs/KeyTypeInputs";
 
 const ConfigurationArea = () => {
     return (
-        <div className='bg-gray-50 p-5 border-2 -end-px rounded-2xl'>
+        <div className='relative transition-all bg-gray-50 p-5 border-2 rounded-b-2xl'>
             <KeyTypeInputs/>
             <AddButton/>
         </div>

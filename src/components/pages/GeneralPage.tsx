@@ -6,6 +6,7 @@ import AddFilesButton from "../atoms/Buttons/AddFilesButton";
 import FileSelectionArea from "../organisms/FileSelectionArea/FileSelectionArea";
 import SelectionArea from "../organisms/SelectionArea/SelectionArea";
 import ConfigurationArea from "../organisms/ConfigurationArea/ConfigurationArea";
+import FileTabs from "../molecules/FileTabs/FileTabs";
 
 const GeneralPage = () => {
     return (
@@ -22,7 +23,7 @@ const GeneralPage = () => {
                 </div>
                 <div className='grid grid-cols-2 items-center -ml-72 gap-28'>
                     <div>
-                        <ConfigurationArea/>
+                        <FileTabs/>
                     </div>
                     <div>
                         <SelectionArea/>
