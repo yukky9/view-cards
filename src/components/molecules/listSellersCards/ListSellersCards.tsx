@@ -8,6 +8,10 @@ const ListSellersCards = () => {
             <SellerCard/>
             <SellerCard/>
             <SellerCard/>
+            <SellerCard/>
+            <SellerCard/>
+            <SellerCard/>
+            <SellerCard/>
         </div>
     );
 };
