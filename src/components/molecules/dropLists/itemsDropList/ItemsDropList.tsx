@@ -19,7 +19,7 @@ const ItemsDropList = () => {
             {cards.map((card, index) => (
                 <div className="bg-white shadow-md rounded-lg mb-4" key={index}>
                     <div
-                        className="p-4 cursor-pointer bg-yellow-600 text-white rounded-lg grid grid-cols-2"
+                        className="p-4 cursor-pointer bg-tan text-black rounded-lg grid grid-cols-2"
                         onClick={() => toggleDropdown({index: index})}>
                         <h3 className="text-lg font-semibold">{card.title}</h3>
                         <button id="multiLevelDropdownButton" data-dropdown-toggle="multi-dropdown" className="justify-items-end"
@@ -32,7 +32,7 @@ const ItemsDropList = () => {
                         </button>
                     </div>
                     {openIndex === index && (
-                        <div className="p-4 bg-gray-100 rounded-b-lg">
+                        <div className="p-4 bg-tan-light rounded-b-lg">
                             <p>{card.content}</p>
                         </div>
                     )}
