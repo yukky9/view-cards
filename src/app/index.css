@@ -16,6 +16,7 @@
     --gray-light: rgb(174, 174, 174, 1);
     --gray-light-dark: rgb(126, 126, 126, 1);
     --gray-dark: rgb(66, 65, 65, 1);
+    --dark-khaki: rgba(189, 183, 107, 0.4);
 }
 
 input::file-selector-button{

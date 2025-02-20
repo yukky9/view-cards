@@ -23,6 +23,7 @@ module.exports = {
         'gray-light': 'var(--gray-light)',
         'gray-dark': 'var(--gray-dark)',
         'gray-light-dark': 'var(--gray-light-dark)',
+        'dark-khaki': 'var(--dark-khaki)',
       }
     },
   },
